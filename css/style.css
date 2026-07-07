@@ -69,3 +69,37 @@ footer{
     padding:30px;
     color:#999;
 }
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(17,20,24,.95);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    border-bottom:1px solid #2d2d2d;
+}
+
+.logo{
+    color:#d4af37;
+    font-size:1.5rem;
+    font-weight:bold;
+    letter-spacing:3px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+nav a{
+    color:#f2f2f2;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#d4af37;
+}
