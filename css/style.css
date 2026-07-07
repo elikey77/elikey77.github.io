@@ -103,3 +103,39 @@ nav a{
 nav a:hover{
     color:#d4af37;
 }
+.menu{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:rgba(17,20,24,.95);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid #333;
+}
+
+.logo{
+    color:#d4af37;
+    font-size:28px;
+    font-weight:bold;
+    letter-spacing:3px;
+}
+
+.menu ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.menu a:hover{
+    color:#d4af37;
+}
