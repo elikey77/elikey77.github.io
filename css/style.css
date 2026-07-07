@@ -16,13 +16,27 @@ body{
 }
 
 header{
+    .hero{
     min-height:100vh;
     display:flex;
-    flex-direction:column;
     justify-content:center;
     align-items:center;
     text-align:center;
     padding:40px;
+    background:linear-gradient(rgba(10,10,15,.75),rgba(10,10,15,.75));
+}
+
+.hero-contenido{
+    max-width:800px;
+}
+
+.autor{
+    color:#d4af37;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    margin-bottom:20px;
+    font-size:.9rem;
+}
 }
 
 h1{
