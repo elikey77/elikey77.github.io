@@ -17,13 +17,22 @@ body{
 
 header{
     .hero{
+    .hero{
     min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
     padding:40px;
-    background:linear-gradient(rgba(10,10,15,.75),rgba(10,10,15,.75));
+
+    background:
+    linear-gradient(rgba(10,10,15,.72),rgba(10,10,15,.72)),
+    url("img/fondo.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
 }
 
 .hero-contenido{
