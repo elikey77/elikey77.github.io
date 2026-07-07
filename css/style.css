@@ -202,4 +202,26 @@ width:180px;
 
 }
 
+#autor{
+
+max-width:900px;
+
+margin:auto;
+
+padding:100px 30px;
+
+text-align:center;
+
+}
+
+#autor p{
+
+font-size:1.15rem;
+
+line-height:2;
+
+color:#d5d5d5;
+
+margin-top:30px;
+
 }
